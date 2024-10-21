@@ -1,0 +1,17 @@
+.Parte1{
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+}
+
+.Parte1 img{
+    border-width: 25%;
+    margin: 12px;
+    padding: 10px;
+}
+
+.Parte1 div{
+    margin: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
