@@ -1,3 +1,12 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.contenedor{
+    width: 85%;
+    margin: 0 auto;
+}
+
 .Parte1{
     margin: 0 auto;
     display: flex;
@@ -14,4 +23,31 @@
     margin: 15px;
     padding-left: 10px;
     padding-right: 15px;
+}
+
+.Parte2{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.Parte2 table{
+    text-align: center;
+}
+
+.Parte3 {
+    margin-top: 20px;
+}
+
+.Parte3 #boton1{
+    margin-right: 0;
+    width: 100px;
+    height: 35px;
+}
+
+.Parte3 #boton2{
+    position: absolute;
+    right: 0;
+    margin-right: 9%;
+    width: 100px;
+    height: 35px;
 }
