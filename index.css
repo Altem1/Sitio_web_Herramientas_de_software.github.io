@@ -52,7 +52,8 @@ body{
 }
 
 .Parte3 #boton1,
-.Parte3 #boton2{
+.Parte3 #boton2,
+.Parte3 #boton3{
     width: 100px;
     height: 40px;
     background-color: black;
@@ -62,7 +63,8 @@ body{
 }
 
 #boton1:hover,
-#boton2:hover{
+#boton2:hover,
+#boton3:hover{
     background-color: #573D7C;
 }
 
@@ -72,4 +74,10 @@ body{
     margin-right: 9%;
     width: 100px;
     height: 35px;
+}
+
+.Parte3 #boton3{
+    position: relative;
+    transform: translateX(500%);
+
 }

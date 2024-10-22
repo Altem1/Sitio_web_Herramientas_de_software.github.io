@@ -1,0 +1,32 @@
+.Contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Parte1_1{
+    display: flex;
+    justify-content: center;
+}
+
+.Parte1_1 .img{
+    width: 10%;
+    position: relative;
+}
+
+.Parte1_1 .img img{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Parte1_1 .Resumen{
+    width: 30%;
+}
+
+.Parte1_1 .img,
+.Parte1_1 .Resumen,
+.Parte1_1 .Multimedia{
+    margin-right: 15px;
+}
