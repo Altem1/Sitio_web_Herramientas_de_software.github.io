@@ -1,11 +1,15 @@
 .Contenedor{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .Parte1_1{
     display: flex;
     justify-content: center;
+}
+
+.Parte1_1 .Resumen #titulo{
+    font-weight: bold;
 }
 
 .Parte1_1 .img{
