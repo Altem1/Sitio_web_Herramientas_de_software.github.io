@@ -70,22 +70,22 @@ header .Head-Container .Parte3{
 }
 
 #t1{
-    background-color: #8E5AAD;
+    background-color: #2B4850;
 }
 
 #t2{
-    background-color: #1277AF;
+    background-color: #637B87;
 }
 
 #t3{
-    background-color: #53c1bd;
+    background-color: #586f8b;
 }
 
 #t1,
 #t2,
 #t3{
-    border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
     border-width: 2px;
 }
@@ -95,6 +95,8 @@ header .Head-Container .Parte3{
     border-left-style: solid;
     border-bottom-style: solid;
     border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
     margin-top: 15px;
     width: 20%;
 }
