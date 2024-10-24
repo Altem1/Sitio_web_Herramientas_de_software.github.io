@@ -122,3 +122,12 @@ header .Head-Container .Parte3{
 #boton3:hover{
     background-color: #573D7C;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(127, 225, 255);
+}       
