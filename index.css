@@ -88,6 +88,7 @@ header .Head-Container .Parte3{
     border-top-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
     border-width: 2px;
+    cursor: pointer;
 }
 
 .Parte2 table thead tr th,

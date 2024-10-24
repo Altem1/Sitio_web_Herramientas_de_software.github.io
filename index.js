@@ -2,6 +2,7 @@
 const boton1 = document.getElementById("boton1");
 const boton2 = document.getElementById("boton2");
 const boton3 = document.getElementById("boton3");
+const titulo = document.getElementById("principal");
 
 
 if (boton1) {
@@ -20,6 +21,12 @@ if (boton3) {
     boton3.addEventListener("click", redirectFunction3);
 } else {
     console.error("Button 3 not found.");
+}
+
+if (titulo) {
+    titulo.addEventListener("click", redirectFunction3)
+}else{
+    console.error("Title not found.");
 }
 
 function redirectFunction1() {
