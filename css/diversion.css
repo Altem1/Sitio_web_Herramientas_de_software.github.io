@@ -99,3 +99,7 @@ Parte1_1 .Resumen{
 .Agentes .row2{
     display: flex;
 }
+
+h2{
+    text-align: center;
+}

@@ -1,10 +1,11 @@
-// Check if buttons exist before adding event listeners
+//Crea constantes para cada id
 const boton1 = document.getElementById("boton1");
 const boton2 = document.getElementById("boton2");
 const boton3 = document.getElementById("boton3");
 const titulo = document.getElementById("principal");
 
-
+//Se revisa que los botones existan de ser asi manda a llamar a la funcion de redireccion
+//en caso contrario mostramos por consola que no existe ningun boton
 if (boton1) {
     boton1.addEventListener("click", redirectFunction1);
 } else {
@@ -35,6 +36,7 @@ function redirectFunction1() {
         window.location.href = "/page/diversion.html";
     }, 1000); // Delay for 1 second
 }
+//Se crea la funcion para redireccionar a la pagina de ciencia
 
 function redirectFunction2() {
     console.log("Redireccionando a Google...");
